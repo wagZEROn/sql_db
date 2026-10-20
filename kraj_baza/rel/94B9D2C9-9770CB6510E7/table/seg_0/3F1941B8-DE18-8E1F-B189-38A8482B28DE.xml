@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F1941B8-DE18-8E1F-B189-38A8482B28DE" name="Kraj">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 12:25:25 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kraj_ID" id="EB386380-BBFA-2D59-B252-4962C20D7B4B">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 12:25:39 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Krajk_Nazwa" id="7FC8966D-9645-F174-44D0-4F2284A1A08E">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 12:25:57 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADED52A5-6180-396A-8655-A1E3F310EABB" name="Kraj_PK">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 12:25:39 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB386380-BBFA-2D59-B252-4962C20D7B4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
