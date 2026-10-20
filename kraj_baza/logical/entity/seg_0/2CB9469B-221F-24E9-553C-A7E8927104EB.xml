@@ -41,6 +41,21 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Rejon_ID" id="AF4BF6A8-20E3-80C2-F5AB-0BEB76AEE4A1">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 13:21:53 UTC</createdTime>
+<generatorID>82CBC45A-382D-C680-93D3-3BC012786248</generatorID>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<engineerTo>
+<item key="94B9D2C9-3178-50EF-3BCF-9770CB6510E7" value="true"/>
+</engineerTo>
+<referedAttribute>3FAF3EED-5E20-18BE-29F2-12BC548F4E46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E14C4C06-1809-1AC1-62C4-74643EC38BBD" name="Kraj PK">
