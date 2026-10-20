@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="82CBC45A-382D-C680-93D3-3BC012786248">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="8490D6FF-58E9-80F6-3ABF-E1AA14E51AD4">
 <createdBy>ksawe</createdBy>
-<createdTime>2026-10-20 13:21:53 UTC</createdTime>
+<createdTime>2026-10-20 13:36:08 UTC</createdTime>
 <ownerDesignName>kraj_baza</ownerDesignName>
 <engineerTo>
 <item key="94B9D2C9-3178-50EF-3BCF-9770CB6510E7" value="true"/>
