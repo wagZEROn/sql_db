@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="627B3BD6-5F32-A3BA-21CD-C31BD28A3F27" containerWithKeyObject="C75ABDCD-31FD-9205-0AD7-838F205A44A8" localFKIndex="0A0E1951-76CD-26B5-7B1A-C36DF702B6B8" name="Rejon_Kraj_FK">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 16:27:36 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<referredTableLongName>Kraj</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F1941B8-DE18-8E1F-B189-38A8482B28DE</referredTableID>
+<keyObject>ADED52A5-6180-396A-8655-A1E3F310EABB</keyObject>
+<referredKeyID>ADED52A5-6180-396A-8655-A1E3F310EABB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Kraj_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

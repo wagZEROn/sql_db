@@ -19,6 +19,21 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Kraj_Kraj_ID" id="0CF2632A-49F3-E52C-51AE-2B435DEDDEFF">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 16:27:36 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="627B3BD6-5F32-A3BA-21CD-C31BD28A3F27" referredColumn="EB386380-BBFA-2D59-B252-4962C20D7B4B"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7499317E-B453-7E98-F727-5ABAFDC3F270" name="Kraj_PKv1">
@@ -30,6 +45,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B0D5B3F6-33E5-D20F-1FF1-C0B932876F68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A0E1951-76CD-26B5-7B1A-C36DF702B6B8" name="Rejon_Kraj_FK">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 16:27:36 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CF2632A-49F3-E52C-51AE-2B435DEDDEFF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
