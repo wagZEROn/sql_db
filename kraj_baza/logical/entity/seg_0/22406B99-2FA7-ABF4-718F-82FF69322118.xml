@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22406B99-2FA7-ABF4-718F-82FF69322118" name="tabela">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 14:15:56 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<engineerTo>
+<item key="94B9D2C9-3178-50EF-3BCF-9770CB6510E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Klucz" id="29EFA1A3-0D4F-AA95-5DC3-BD04AF400A08">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 14:16:04 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<engineerTo>
+<item key="94B9D2C9-3178-50EF-3BCF-9770CB6510E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="593D52D2-C3E5-B7E2-A7F0-AB8C81E6042D" name="tabela PK">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 14:16:11 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<engineerTo>
+<item key="94B9D2C9-3178-50EF-3BCF-9770CB6510E7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29EFA1A3-0D4F-AA95-5DC3-BD04AF400A08</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
