@@ -1,4 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
    <object objectType="Table" objectID="3F1941B8-DE18-8E1F-B189-38A8482B28DE" name="Kraj" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="94B9D2C9-3178-50EF-3BCF-9770CB6510E7" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="C75ABDCD-31FD-9205-0AD7-838F205A44A8" name="Rejon" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="94B9D2C9-3178-50EF-3BCF-9770CB6510E7" propertySourceId="" propertyTargetId=""/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

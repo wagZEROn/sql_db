@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C75ABDCD-31FD-9205-0AD7-838F205A44A8" name="Rejon">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 13:38:29 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rejon_ID" id="B0D5B3F6-33E5-D20F-1FF1-C0B932876F68">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 13:38:43 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7499317E-B453-7E98-F727-5ABAFDC3F270" name="Kraj_PK">
+<createdBy>ksawe</createdBy>
+<createdTime>2026-10-20 13:38:43 UTC</createdTime>
+<ownerDesignName>kraj_baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0D5B3F6-33E5-D20F-1FF1-C0B932876F68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
