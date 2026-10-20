@@ -2,5 +2,6 @@
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="Entity" objectID="2CB9469B-221F-24E9-553C-A7E8927104EB" name="Kraj" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D660EE5A-6DAA-6F65-466B-3F41DBA30203" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="E5C82A7D-06F9-DD52-CDA1-3193F1785DB4" name="Rejon" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D660EE5A-6DAA-6F65-466B-3F41DBA30203" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="3CEB6183-787E-BD5C-A08F-9B9C4996976F" name="tabela" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D660EE5A-6DAA-6F65-466B-3F41DBA30203" propertySourceId="" propertyTargetId=""/>
    <object objectType="Relation" objectID="8490D6FF-58E9-80F6-3ABF-E1AA14E51AD4" name="Relation_3" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="D660EE5A-6DAA-6F65-466B-3F41DBA30203" propertySourceId="E5C82A7D-06F9-DD52-CDA1-3193F1785DB4" propertyTargetId="2CB9469B-221F-24E9-553C-A7E8927104EB"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>
