@@ -21,7 +21,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7499317E-B453-7E98-F727-5ABAFDC3F270" name="Kraj_PK">
+<ind_PK_UK id="7499317E-B453-7E98-F727-5ABAFDC3F270" name="Kraj_PKv1">
 <createdBy>ksawe</createdBy>
 <createdTime>2026-10-20 13:38:43 UTC</createdTime>
 <ownerDesignName>kraj_baza</ownerDesignName>
